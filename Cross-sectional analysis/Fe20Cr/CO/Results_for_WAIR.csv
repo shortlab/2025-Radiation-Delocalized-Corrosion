@@ -1,0 +1,11 @@
+file name,Ratio,area of white on region (pixels),area of total region (pixels),Area ratio % (white/regoin*100%)
+Fuse_3.tif,0.01,16319,127715,12.7777
+Fuse_3.tif,0.02,25192,242003,10.4098
+Fuse_3.tif,0.03,29289,358129,8.1783
+Fuse_3.tif,0.04,30211,472493,6.394
+Fuse_3.tif,0.05,30415,587500,5.177
+Fuse_3.tif,0.06,30415,702671,4.3285
+Fuse_3.tif,0.07,30415,817728,3.7195
+Fuse_3.tif,0.08,30415,932966,3.26
+Fuse_3.tif,0.09,30415,1047347,2.904
+Fuse_3.tif,0.1,30415,1161463,2.6187
