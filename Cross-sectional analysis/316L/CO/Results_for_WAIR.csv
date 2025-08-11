@@ -1,0 +1,11 @@
+file name,Ratio,area of white on region (pixels),area of total region (pixels),Area ratio % (white/regoin*100%)
+Fused-4.tif,0.01,2881,15247,18.8955
+Fused-4.tif,0.02,3370,23130,14.5698
+Fused-4.tif,0.03,3656,34429,10.619
+Fused-4.tif,0.04,3816,44417,8.5913
+Fused-4.tif,0.05,3928,54149,7.2541
+Fused-4.tif,0.06,3998,64665,6.1826
+Fused-4.tif,0.07,4050,74509,5.4356
+Fused-4.tif,0.08,4101,84891,4.8309
+Fused-4.tif,0.09,4139,94653,4.3728
+Fused-4.tif,0.1,4147,104764,3.9584
