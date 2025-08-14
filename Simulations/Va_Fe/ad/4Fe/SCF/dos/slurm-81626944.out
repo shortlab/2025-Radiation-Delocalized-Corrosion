@@ -1,0 +1,58 @@
+srun: ROUTE: split_hostlist: hl=b01r4n14 tree_width 0
+ running on    4 total cores
+ distrk:  each k-point on    1 cores,    4 groups
+ distr:  one band on    1 cores,    1 groups
+ HIP runtime initialized ...    4 DCUs will be used
+ Created    4 streams on each DCU
+ vasp.6.3.2 27Jun22 (build Mar 15 2023 15:45:48) complex                        
+  
+ POSCAR found type information on POSCAR FeCrPb
+ POSCAR found :  3 types and      63 ions
+ Reading from existing POTCAR
+ -----------------------------------------------------------------------------
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|     You use a magnetic or noncollinear calculation, but did not specify     |
+|     the initial magnetic moment with the MAGMOM tag. Note that a            |
+|     default of 1 will be used for all atoms. This ferromagnetic setup       |
+|     may break the symmetry of the crystal, in particular it may rule        |
+|     out finding an antiferromagnetic solution. Thence, we recommend         |
+|     setting the initial magnetic moment manually or verifying carefully     |
+|     that this magnetic setup is desired.                                    |
+|                                                                             |
+ -----------------------------------------------------------------------------
+
+ scaLAPACK will be used selectively (only on CPU)
+ Reading from existing POTCAR
+ LDA part: xc-table for Pade appr. of Perdew
+ POSCAR found type information on POSCAR FeCrPb
+ POSCAR found :  3 types and      63 ions
+ Optimize memory usage for KPAR
+ found WAVECAR, reading the header
+  number of bands has changed, file:   372 present:   371
+  trying to continue reading WAVECAR, but it might fail
+ WARNING: stress and forces are not correct
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ... GRIDC
+ FFT: planning ... GRID_SOFT
+ FFT: planning ... GRID
+ reading WAVECAR
+ the WAVECAR file was read successfully
+ charge-density read from file: ni3al                                   
+ magnetization density read from file 1
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.504969261324E+03   -0.50497E+03   -0.30450E-01 19592   0.309E+00
+DAV:   2    -0.504972707427E+03   -0.34461E-02   -0.34461E-02 19848   0.434E-01
+DAV:   3    -0.504972928564E+03   -0.22114E-03   -0.22113E-03 23776   0.531E-02
+DAV:   4    -0.504972934722E+03   -0.61581E-05   -0.61580E-05 20560   0.120E-02
+DAV:   5    -0.504972935180E+03   -0.45789E-06   -0.45794E-06 12680   0.277E-03
+   1 F= -.50497294E+03 E0= -.50497615E+03  d E =0.965025E-02  mag=   112.5533
+ writing wavefunctions
+ PROFILE, used timers:     193

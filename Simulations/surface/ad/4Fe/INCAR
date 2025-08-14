@@ -1,0 +1,29 @@
+System  = ni3al
+PREC    = Accurate
+EDIFF   = 1E-5
+EDIFFG  = -2E-2
+ISTART  = 1
+ICHARG  = 1         ! 如有先前密度可试 ICHARG=1
+LREAL   = Auto   ! 若计算量允许，提高精度
+NSW     = 300         ! 静态计算建议 NSW=0；若结构优化，请增大 NSW 并启用 POTIM
+ISIF    = 2
+IBRION  = 2
+ISMEAR  = 1         ! 可试 ISMEAR=1 或 2；预收敛后可考虑 ISMEAR=-5
+SIGMA   = 0.15      ! 从 0.15～0.2 开始试探
+ENCUT   = 450
+ALGO    = Normal    ! 建议从 Normal 开始
+#POTIM  = 0.2      ! 若做结构优化请解注
+LMAXMIX = 4
+AMIN    = 0.01
+NELM    = 150       ! 提高最大电子迭代步数
+LCHARG  = .F.
+LWAVE   = .F.
+ISPIN   = 2
+NCORE   = 4
+KPAR    = 8
+LDIPOL  = .TRUE.
+IDIPOL  = 3
+AMIX    = 0.05      ! 进一步降低混合幅度
+BMIX    = 0.0001
+IMIX    = 4
+
