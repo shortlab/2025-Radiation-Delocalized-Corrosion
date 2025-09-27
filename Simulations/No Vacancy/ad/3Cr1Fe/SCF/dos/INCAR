@@ -29,7 +29,7 @@ NCORE = 4
 KPAR = 8
 LDIPOL  = .TRUE.
 IDIPOL  = 3
-AMIX    = 0.05      ! 进一步降低混合幅度
+AMIX    = 0.05     
 BMIX    = 0.0001
 IMIX    = 4
 
