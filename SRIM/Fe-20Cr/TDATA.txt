@@ -1,0 +1,52 @@
+====== H (10) into Fe-20Cr+Pb-Bi                =======
+        SRIM-2008.04
+=======================================
+      Data  of  TRIM  Calculation      
+=======================================
+--------------------------------------------------------------------
+    Recoil/Damage Calculations made with Kinchin-Pease Estimates    
+--------------------------------------------------------------------
+Ion =  H ( 1)   Ion Mass= 001.0080
+Energy  = 3000000.E-03 keV
+Ion Angle to Surface = 0 degrees
+============= TARGET MATERIAL ======================================
+  Layer # 1 - Fe-20Cr
+  Layer # 1 - Bottom Depth=     3.E+05 A
+  Layer # 1- Density = 8.454E22 atoms/cm3 = 7.732 g/cm3
+  Layer # 1- Fe = 80   Atomic Percent = 40.5 Mass Percent
+  Layer # 1- Cr = 20   Atomic Percent = 9.44 Mass Percent
+====================================================================
+  Layer # 2 - Pb-Bi
+  Layer # 2 - Bottom Depth=     6.E+05 A
+  Layer # 2- Density = 3.059E22 atoms/cm3 = 10.57 g/cm3
+  Layer # 2- Pb = 50   Atomic Percent = 24.8 Mass Percent
+  Layer # 2- Bi = 50   Atomic Percent = 25.1 Mass Percent
+====================================================================
+Target energies for target atom = Fe
+    Displacement = 40 eV, Binding = 3 eV, Surface = 4.34 eV
+Target energies for target atom = Cr
+    Displacement = 40 eV, Binding = 3 eV, Surface = 4.12 eV
+Target energies for target atom = Pb
+    Displacement = 25 eV, Binding = 3 eV, Surface = 2.03 eV
+Target energies for target atom = Bi
+    Displacement = 25 eV, Binding = 3 eV, Surface = 2.17 eV
+====================================================================
+Depth Range of Tabulated Data=  000000.E+00  -  550000.E+00  Angstroms
+====================================================================
+Total Ions calculated =  067617
+Average Range         =   40861.E+01 Angstroms
+Average Straggling    =   20953.E+00 Angstroms
+Average Vacancy/Ion   =   25527.E-03
+====================================================================
+Total Backscattered Ions=  8 
+Total Transmitted Ions  =  0 
+====================================================================
+See files SRIM Outputs\*.txt for tables :
+   TDATA.txt    -- Details of the calculation.
+   RANGE.txt    -- Final distribution of Ions/Recoils
+   VACANCY.txt  -- Distribution of Vacancies
+   IONIZ.txt    -- Distribution of Ionization
+   PHONON.txt   -- Distribution of Phonons
+   E2RECOIL.txt -- Energy transferred to recoils
+   NOVAC.txt    -- Replacement collisions
+   LATERAL.txt  -- Lateral Spread of Ions
