@@ -1,0 +1,28 @@
+System  = INCAR-For-OPT  # Title of the system
+PREC    = Accurate
+EDIFF   = 1E-5       #SCF energy convergence, in eV
+EDIFFG  = -2E-2      # Ionic convergence, eV/A
+ISTART  = 1          # Read existing wavefunction, if there, otherwise ISTART = 0
+ICHARG  = 1          
+LREAL   = Auto       # If the calcualtion is allowed, it will improve the accuracy
+NSW     = 300        # NSW sets the maximum number of ionic step. If static calcualtion, use NSW = 0. If structural relaxation, please increase it, and unlock POTIM)
+ISIF    = 2          # Moves ionic positions, if ISIF =3 moves cell volume and cell shape
+IBRION  = 2          # For ionic relaxation (conjugate gradient algorithm)
+ISMEAR  = 1          # Gaussain smearing, Semiconductor or insulator use 0, metal uses 1. When not sure, use 0
+SIGMA   = 0.15       # Smearing value in 0.03-0.05 eV for Semiconductor or insulator, metal can be 0.15-0.2. 
+ENCUT   = 450        # Find it from POTCAT: ENMAX *1.2-1.3
+ALGO    = Fast     # Good to start from normal
+#POTIM  = 0.2        # 0.5 if IBRION = 1, 2 and 3 (Ionic relaxation)
+LMAXMIX = 4
+AMIN    = 0.01
+NELM    = 150       # Sets the maximum nember of electronic self-consistency steps
+LCHARG  = .F.       # Write CHGCAR or not
+LWAVE   = .F.       # Write WAVECAR or not
+ISPIN   = 2         # ISPIN = 1 Non-Spin polarized DFT, 2: Spin polarized calculations
+NCORE   = 4         #
+KPAR    = 8
+LDIPOL  = .TRUE.    
+IDIPOL  = 3         # switches or monopole/dipole and quadrupole corrections to the total energy
+AMIX    = 0.05      
+BMIX    = 0.0001
+IMIX    = 4         # LMAXMIX to 4 for d-elements to 6 for f-elementas 

@@ -1,0 +1,2 @@
+11 -509.05379473    NGX,Y,Z   is equivalent  to a cutoff of  11.72, 11.68, 11.85 a.u.
+26 -508.91885824    NGX,Y,Z   is equivalent  to a cutoff of  11.74, 11.71, 11.85 a.u.
