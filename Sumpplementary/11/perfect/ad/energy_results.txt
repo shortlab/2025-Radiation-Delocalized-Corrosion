@@ -1,0 +1,2 @@
+3CrFe -514.00698480    NGX,Y,Z   is equivalent  to a cutoff of  11.68, 11.73, 11.87 a.u.
+4Fe -512.08026119    NGX,Y,Z   is equivalent  to a cutoff of  11.68, 11.73, 11.87 a.u.
